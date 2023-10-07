@@ -19,6 +19,7 @@ import java.time.LocalDateTime;
  * @CreateTime: 2023-06-03  17:18
  * @Description: User实体
  * @Version: 1.0
+ * 
  */
 @TableName("user_info")
 @Data
