@@ -20,6 +20,7 @@ import java.time.LocalDateTime;
  * @Description: User实体
  * @Version: 1.0
  * 
+ * 
  */
 @TableName("user_info")
 @Data
@@ -51,4 +52,6 @@ public class UserEntity {
     private String lastUpdatedBy;
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime lastUpdateDate;
+
+    
 }
