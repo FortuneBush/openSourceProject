@@ -37,5 +37,17 @@ public class UserEntity {
     private LocalDateTime stopTime;
     @TableField(fill = FieldFill.INSERT)
     private String status;
-
+    private LocalDateTime stopTime;
+    @TableField(fill = FieldFill.INSERT)
+    private String status;
+    @ExcelProperty("创建人")
+    @TableField(fill = FieldFill.INSERT)
+    private String createdBy;
+    @TableField(fill = FieldFill.INSERT)
+    @ExcelProperty("创建时间")
+    private LocalDateTime creationDate;
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private String lastUpdatedBy;
+    @TableField(fill = FieldFill.INSERT_UPDATE)
+    private LocalDateTime lastUpdateDate;
 }
