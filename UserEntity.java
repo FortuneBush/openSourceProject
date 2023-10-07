@@ -45,8 +45,8 @@ public class UserEntity {
     @TableField(fill = FieldFill.INSERT)
     private String createdBy;
     @TableField(fill = FieldFill.INSERT)
-    @ExcelProperty("登录时间")
-    private LocalDateTime creationDate;
+    @ExcelProperty("注册时间")
+    private LocalDateTime registerDate;
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private String lastUpdatedBy;
     @TableField(fill = FieldFill.INSERT_UPDATE)
